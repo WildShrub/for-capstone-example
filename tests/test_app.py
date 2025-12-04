@@ -1,4 +1,4 @@
-from app import add
+from src/app import add
 import sys 
 from pathlib import pathlib
 root = Path(__file__).resolve().parents[1]
