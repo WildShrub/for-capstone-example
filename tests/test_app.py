@@ -16,9 +16,9 @@ def test_add3():
 
 
 def test_subtract():
-    assert subtract(5,6) == -1
+    assert sub(5,6) == -1
 
 def test_subtract2():
-    assert subtract(30,15) == 15
+    assert sub(30,15) == 15
 def test_subtract3():
-    assert subtract(5,6) != 10
+    assert sub(5,6) != 10
