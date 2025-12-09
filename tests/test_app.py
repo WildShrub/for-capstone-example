@@ -13,3 +13,12 @@ def test_add2():
     assert add(30,15) == 45
 def test_add3():
     assert add(5,6) != 10
+
+
+def test_subtract():
+    assert subtract(5,6) == -1
+
+def test_subtract2():
+    assert subtract(30,15) == 15
+def test_subtract3():
+    assert subtract(5,6) != 10
