@@ -31,7 +31,7 @@ def cos (a):
 def square_root (a):
     if a < 0:
         return "Error: Negative input for square root"
-    return math.square_root(a)
+    return math.sqrt(a)
 
 def percentage (a,b):
     if b == 0:
