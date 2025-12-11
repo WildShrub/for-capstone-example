@@ -44,7 +44,7 @@ with:
     needs: deploy-pages
     runs-on: ubuntu-latest
     permissions:
-      pages: write
+      pages: write 
       id-token: write
     steps:
       
