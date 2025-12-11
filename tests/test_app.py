@@ -34,7 +34,7 @@ def test_subtract2():
 def test_subtract3():
     assert subtract(10,4) != 5
 
-def test multiply():
+def test_multiply():
     assert multiply(3,7) == 21
 def test_multiply2():
     assert multiply(4,5) == 20
@@ -42,6 +42,7 @@ def test_multiply3():
     assert multiply(3,7) != 20
 def test_multiply4(3,0)
     assert multiply(3,0) == 0
+
 def test_divide():
     assert divide(20,4) == 5
 def test_divide2():
@@ -50,6 +51,7 @@ def test_divide3():
     assert divide(20,4) != 4
 def test_divide4():
     assert divide(5,0) == "Error: Division by zero"
+
 def test_log():
     assert log(100,10) == 2
 def test_log2():
