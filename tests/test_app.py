@@ -89,11 +89,11 @@ def test_sin():
 def test_sin2():
     assert sin(math.pi/2) == 1
 def test_sin3():
-    assert sin(math.pi) == 0
+    assert sin(math.pi) == math.sin(0)
 def test_sin4():
-    assert sin(math.pi*3/2) == -1
+    assert sin(math.pi * 3 / 2) == -1
 def test_sin5():
-    assert sin(math.pi*2) == 0
+    assert sin(math.pi*2) == math.sin(0)
 
 def test_sin6():
     #quadrant I
