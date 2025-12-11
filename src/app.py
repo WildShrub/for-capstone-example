@@ -1,4 +1,4 @@
-import MATH
+import math
 
 def add (a,b):
     return a+b
@@ -17,21 +17,21 @@ def divide (a,b):
 def log (a,b):
     if a <= 0 or b <= 0 or b == 1:
         return "Error: Invalid input for logarithm"
-    return MATH.log(a,b)
+    return math.log(a,b)
 
 def square (a):
     return a^2
 
 def sin (a):
-    return MATH.sin(a)
+    return math.sin(a)
 
 def cos (a):
-    return MATH.cos(a)
+    return math.cos(a)
 
 def square_root (a):
     if a < 0:
         return "Error: Negative input for square root"
-    return MATH.square_root(a)
+    return math.square_root(a)
 
 def percentage (a,b):
     if b == 0:
