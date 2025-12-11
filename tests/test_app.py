@@ -89,7 +89,7 @@ def test_sin():
 def test_sin2():
     assert sin(math.pi/2) == 1
 def test_sin3():
-    assert sin(math.pi) == < 0.0001 and sin(math.pi) > -0.0001
+    assert sin(math.pi) < 0.0001 and sin(math.pi) > -0.0001
 def test_sin4():
     assert sin(math.pi * 3 / 2) == -1
 def test_sin5():
