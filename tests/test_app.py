@@ -22,12 +22,14 @@ def test_add2():
     assert add(30,15) == 45
 def test_add3():
     assert add(5,6) != 10
+
 def test_subtract():
     assert subtract(10,4) == 6
 def test_subtract2():
     assert subtract(20,5) == 15
 def test_subtract3():
     assert subtract(10,4) != 5
+
 def test_multiply():
     assert multiply(3,7) == 21
 def test_multiply2():
@@ -36,6 +38,7 @@ def test_multiply3():
     assert multiply(3,7) != 20
 def test_multiply4():
     assert multiply(3,0) == 0
+
 def test_divide():
     assert divide(20,4) == 5
 def test_divide2():
@@ -44,6 +47,7 @@ def test_divide3():
     assert divide(20,4) != 4
 def test_divide4():
     assert divide(5,0) == "Error: Division by zero"
+
 def test_log():
     assert log(100,10) == 2
 def test_log2():
@@ -60,6 +64,7 @@ def test_log7():
     assert log(0,10) == "Error: Invalid input for logarithm"
 def test_log8():
     assert log(10,0) == "Error: Invalid input for logarithm"
+
 def test_square():
     assert square(5) == 25
 def test_square2():
@@ -74,6 +79,7 @@ def test_square6():
     assert square(1) == 1
 def test_square7():
     assert square(-1) == 1
+
 def test_sin():
     assert sin(0) == 0
 def test_sin2():
@@ -96,6 +102,7 @@ def test_sin8():
 def test_sin9():
     #quadrant IV
     assert sin(5) < 0
+
 def test_cos():
     assert cos(0) == 1
 def test_cos2():
@@ -118,6 +125,7 @@ def test_cos8():
 def test_cos9():
     #quadrant IV
     assert cos(5) > 0
+
 def test_square_root():
     assert square_root(25) == 5
 def test_square_root2():
@@ -128,6 +136,7 @@ def test_square_root4():
     assert square_root(-9) == "Error: Negative input for square root"
 def test_square_root5():
     assert square_root(2) == math.sqrt(2)
+    
 def test_percentage():
     assert percentage(50,200) == 25.0
 def test_percentage2():
