@@ -20,7 +20,7 @@ def log (a,b):
     return math.log(a,b)
 
 def square (a):
-    return a^2
+    return a**2
 
 def sin (a):
     return math.sin(a)
