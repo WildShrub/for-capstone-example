@@ -75,13 +75,13 @@ def test_square2():
     assert square(10) == 100
 def test_square3():
     assert square(5) != 20
-def test_square3():
-    assert square(0) == 0
 def test_square4():
-    assert square(-4) == 16
+    assert square(0) == 0
 def test_square5():
-    assert square(1) == 1
+    assert square(-4) == 16
 def test_square6():
+    assert square(1) == 1
+def test_square7():
     assert square(-1) == 1
 
 def test_sin():
