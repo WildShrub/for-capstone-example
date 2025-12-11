@@ -16,6 +16,7 @@ def divide (a,b):
 
 def log (a,b):
     if a <= 0 or b <= 0 or b == 1:
+        return "Error: Invalid input for logarithm"
     return MATH.log(a,b)
 
 def square (a):
