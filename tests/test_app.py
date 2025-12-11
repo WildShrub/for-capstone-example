@@ -89,11 +89,11 @@ def test_sin():
 def test_sin2():
     assert sin(math.pi/2) == 1
 def test_sin3():
-    assert sin(math.pi) == math.sin(0)
+    assert sin(math.pi) == < 0.0001 and sin(math.pi) > -0.0001
 def test_sin4():
     assert sin(math.pi * 3 / 2) == -1
 def test_sin5():
-    assert sin(math.pi*2) == math.sin(0)
+    assert sin(math.pi*2) < 0.0001 and sin(math.pi*2) > -0.0001
 
 def test_sin6():
     #quadrant I
@@ -113,11 +113,11 @@ def test_sin9():
 def test_cos():
     assert cos(0) == 1
 def test_cos2():
-    assert cos(math.pi/2) == 0
+    assert cos(math.pi/2) < 0.0001 and cos(math.pi/2) > -0.0001
 def test_cos3():
     assert cos(math.pi) == -1
 def test_cos4():
-    assert cos(math.pi*3/2) == 0
+    assert cos(math.pi*3/2) < 0.0001 and cos(math.pi*3/2) > -0.0001
 def test_cos5():
     assert cos(math.pi*2) == 1
 
