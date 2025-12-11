@@ -40,7 +40,7 @@ def test_multiply2():
     assert multiply(4,5) == 20
 def test_multiply3():
     assert multiply(3,7) != 20
-def test_multiply4(3,0)
+def test_multiply4(3,0):
     assert multiply(3,0) == 0
 
 def test_divide():
